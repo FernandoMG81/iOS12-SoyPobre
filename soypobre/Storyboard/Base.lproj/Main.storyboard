@@ -27,14 +27,14 @@
                                 <color key="highlightedColor" systemColor="labelColor"/>
                             </label>
                             <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Pobre" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ofz-iL-Vft">
-                                <rect key="frame" x="115" y="246" width="185.5" height="411"/>
+                                <rect key="frame" x="114.5" y="246" width="185.5" height="411"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="411" id="3fw-jA-PTN"/>
                                     <constraint firstAttribute="width" constant="185.5" id="B3V-rW-bov"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udc-ow-t0e">
-                                <rect key="frame" x="100" y="741" width="215" height="72"/>
+                                <rect key="frame" x="100" y="741" width="214" height="72"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="5wU-Xp-zex"/>
