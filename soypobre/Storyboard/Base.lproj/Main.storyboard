@@ -16,18 +16,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOY POBRE" textAlignment="center" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NXT-ym-uRH">
-                                <rect key="frame" x="107" y="104" width="201" height="47"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOY POBRE" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXT-ym-uRH">
+                                <rect key="frame" x="107" y="137" width="160.5" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="500" id="BY6-CV-IFp"/>
+                                    <constraint firstAttribute="height" constant="44" id="CtB-s6-ifk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                 <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" systemColor="labelColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Pobre" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ofz-iL-Vft">
-                                <rect key="frame" x="52" y="239" width="310" height="418"/>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Pobre" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ofz-iL-Vft">
+                                <rect key="frame" x="115" y="246" width="185.5" height="411"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="411" id="3fw-jA-PTN"/>
+                                    <constraint firstAttribute="width" constant="185.5" id="B3V-rW-bov"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udc-ow-t0e">
-                                <rect key="frame" x="124" y="741" width="166" height="72"/>
+                                <rect key="frame" x="100" y="741" width="215" height="72"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="215" id="5wU-Xp-zex"/>
+                                    <constraint firstAttribute="height" constant="72" id="pHx-UT-5Eq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
                                 <state key="normal" title="PÚLSAME">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -38,20 +50,17 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
-                            <constraint firstItem="ofz-iL-Vft" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="52" id="72c-Ag-NvU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NXT-ym-uRH" secondAttribute="bottom" constant="711" id="Jxe-d5-noA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NXT-ym-uRH" secondAttribute="trailing" constant="106" id="MJc-0O-Rsp"/>
-                            <constraint firstItem="ofz-iL-Vft" firstAttribute="top" secondItem="NXT-ym-uRH" secondAttribute="bottom" constant="88" id="Pr3-3R-OI2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Udc-ow-t0e" secondAttribute="trailing" constant="124" id="QP1-fq-IWs"/>
-                            <constraint firstItem="NXT-ym-uRH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="TRf-85-J3K"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ofz-iL-Vft" secondAttribute="bottom" constant="205" id="Wpl-Sf-lDx"/>
-                            <constraint firstItem="NXT-ym-uRH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="fu1-HW-KH4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ofz-iL-Vft" secondAttribute="trailing" constant="52" id="heq-eN-sWh"/>
-                            <constraint firstItem="Udc-ow-t0e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="124" id="lud-xK-xV7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Udc-ow-t0e" secondAttribute="bottom" constant="49" id="mpb-ns-9oJ"/>
-                            <constraint firstItem="Udc-ow-t0e" firstAttribute="top" secondItem="ofz-iL-Vft" secondAttribute="bottom" constant="84" id="vO3-Op-CBF"/>
+                            <constraint firstItem="NXT-ym-uRH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="93" id="200-88-ZZi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Udc-ow-t0e" secondAttribute="bottom" constant="49" id="4ex-VP-Nhh"/>
+                            <constraint firstItem="Udc-ow-t0e" firstAttribute="centerX" relation="greaterThanOrEqual" secondItem="NXT-ym-uRH" secondAttribute="centerX" id="Out-bK-yeg"/>
+                            <constraint firstItem="Udc-ow-t0e" firstAttribute="top" secondItem="ofz-iL-Vft" secondAttribute="bottom" constant="84" id="R6O-bC-Xv1"/>
+                            <constraint firstItem="Udc-ow-t0e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="VmX-mE-00P"/>
+                            <constraint firstItem="Udc-ow-t0e" firstAttribute="centerX" secondItem="ofz-iL-Vft" secondAttribute="centerX" id="btk-wW-FXR"/>
+                            <constraint firstItem="ofz-iL-Vft" firstAttribute="top" secondItem="NXT-ym-uRH" secondAttribute="bottom" constant="65" id="kJo-Wa-DfD"/>
+                            <constraint firstItem="NXT-ym-uRH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="r9a-It-uSH"/>
+                            <constraint firstItem="Udc-ow-t0e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u0i-jX-Oe9"/>
                         </constraints>
                     </view>
                     <connections>
@@ -62,16 +71,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28.125" y="75"/>
+            <point key="canvasLocation" x="27.536231884057973" y="75"/>
         </scene>
     </scenes>
     <resources>
         <image name="Pobre" width="185.5" height="263"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
